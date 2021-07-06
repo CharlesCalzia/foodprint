@@ -42,69 +42,6 @@ function HeaderLinks({ ...props }) {
           Team
         </Link>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Link
-          to="#contact"
-          color="transparent"
-          className={classes.navLink}
-        >
-          Contact
-        </Link>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            href="https://twitter.com/"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-            rel="noopener"
-          >
-            <FaTwitter/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/"
-            target="_blank"
-            className={classes.navLink}
-            rel="noopener"
-          >
-            <FaFacebook/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/"
-            target="_blank"
-            className={classes.navLink}
-            rel="noopener"
-          >
-            <FaInstagram/>
-          </Button>
-        </Tooltip>
-      </ListItem>
     </List>
   );
 }

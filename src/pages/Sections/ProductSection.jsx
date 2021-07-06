@@ -21,7 +21,7 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>Features</h2>
             <h5 className={classes.description}>
-               We are an incredible app
+              Find out how FoodPrint allows you to record and reduce your day-to-day impact on the environment
             </h5>
           </GridItem>
         </GridContainer>
@@ -30,7 +30,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Scan"
-                description="Scan food products in major supermarkets across the UK"
+                description="Check the carbon footprint and water usage of food products before you buy"
                 icon={Chat}
                 iconColor="info"
                 vertical
@@ -39,7 +39,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Suggest"
-                description="Suggests more sustainable alternatives to reduce your ecological footprint"
+                description="Discover new alternatives which cause less harm to the environment during production"
                 icon={VerifiedUser}
                 iconColor="success"
                 vertical
@@ -47,8 +47,8 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Change your life"
-                description="Make a change to your lifestyle today!"
+                title="Save the environment"
+                description="FoodPrint allows you to make your lifestyle greener"
                 icon={VerifiedUser}
                 iconColor="success"
                 vertical

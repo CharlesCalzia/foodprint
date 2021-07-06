@@ -22,7 +22,6 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
 import Helmet from "react-helmet";
 
 class LandingPage extends React.Component {
@@ -59,7 +58,7 @@ class LandingPage extends React.Component {
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://www.youtube.com/watch?v=FCc7p86W2dI"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -74,7 +73,6 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <ProductSection />
             <TeamSection />
-            <WorkSection />
           </div>
         </div>
       </div>

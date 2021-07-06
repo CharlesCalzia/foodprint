@@ -13,8 +13,11 @@ import CardBody from "components/Card/CardBody.jsx";
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
 import team1 from "assets/img/faces/charles.jpg";
-import team2 from "assets/img/faces/none.jpeg";
-import team3 from "assets/img/faces/none.jpeg";
+import team2 from "assets/img/faces/henry.jpg";
+import team3 from "assets/img/faces/harry.jpg";
+import team4 from "assets/img/faces/lucas.jpg";
+import team5 from "assets/img/faces/sidney.jpg";
+import team6 from "assets/img/faces/arnav.jpg";
 
 class TeamSection extends React.Component {
   render() {
@@ -39,11 +42,6 @@ class TeamSection extends React.Component {
                   <br />
                   <small className={classes.smallTitle}>CEO & CTO</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    I'm Charles, the CEO of foodprint.
-                  </p>
-                </CardBody>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
@@ -52,16 +50,10 @@ class TeamSection extends React.Component {
                   <img src={team2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Henry
+                  Henry Squire
                   <br />
                   <small className={classes.smallTitle}>COO</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    ...
-                  </p>
-                </CardBody>
-                
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
@@ -70,16 +62,46 @@ class TeamSection extends React.Component {
                   <img src={team3} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Harry
+                  Harry Hudson
                   <br />
                   <small className={classes.smallTitle}>CMO</small>
                 </h4>
-                <CardBody>
-                  <p className={classes.description}>
-                    ...
-                  </p>
-                </CardBody>
-                
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                  <img src={team4} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  Lucas van den Oever
+                  <br />
+                  <small className={classes.smallTitle}>CFO</small>
+                </h4>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                  <img src={team5} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  Sidney Shaw
+                  <br />
+                  <small className={classes.smallTitle}>CCO</small>
+                </h4>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                  <img src={team6} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  Arnav Sharma
+                  <br />
+                  <small className={classes.smallTitle}>CHRM</small>
+                </h4>
               </Card>
             </GridItem>
           </GridContainer>
